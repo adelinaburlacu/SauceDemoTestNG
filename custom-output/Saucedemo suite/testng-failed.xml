@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Saucedemo suite]" verbose="0">
+  <test thread-count="5" name="Login test(failed)" verbose="0">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="testLoginScenarious" invocation-numbers="2"/>
+          <include name="beforeMethodWithoutLogin"/>
+          <include name="beforeMethodWithLogin"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Login test(failed) -->
+</suite> <!-- Failed suite [Saucedemo suite] -->
